@@ -31,7 +31,7 @@
   line-height: 1.15;
   margin-bottom: 20px;
   background: linear-gradient(90deg, #3A68B8, #00E0FF);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
 }
 
