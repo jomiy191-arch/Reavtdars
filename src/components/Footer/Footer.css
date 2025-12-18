@@ -1,0 +1,128 @@
+.footer {
+  background:#0d1117fc; 
+  color: #ffffff;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.footer__section {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 30px;
+}
+
+.footer__logo {
+  width: 70px;
+  margin-bottom: 15px;
+}
+
+.footer__logo-text {
+  font-size: 14px;
+  color: #cfd8dc;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.footer__info-email,
+.footer__info-phone,
+.footer__info-address {
+  font-size: 13px;
+  color: #a0aebf;
+  margin-bottom: 5px;
+}
+
+.footer__title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.footer__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #cfd8dc;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.footer__list-item:hover {
+  color: #1e90ff;
+  transform: translateX(5px);
+}
+
+.footer__about-text {
+  font-size: 14px;
+  color: #cfd8dc;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.footer__website {
+  font-size: 14px;
+  color: #1e90ff;
+  margin-bottom: 15px;
+}
+
+.footer__socials {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.footer__social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1e90ff;
+  color: #fff;
+  width: 35px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.footer__social-icon:hover {
+  background: #ff6600;
+  transform: scale(1.2);
+}
+
+.footer__language {
+  font-size: 14px;
+  color: #cfd8dc;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .footer__container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__section {
+    min-width: 100%;
+  }
+
+  .footer__socials {
+    justify-content: center;
+  }
+}
