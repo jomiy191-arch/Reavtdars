@@ -110,19 +110,3 @@
   margin-top: 10px;
   cursor: pointer;
 }
-
-@media (max-width: 1024px) {
-  .footer__container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .footer__section {
-    min-width: 100%;
-  }
-
-  .footer__socials {
-    justify-content: center;
-  }
-}
