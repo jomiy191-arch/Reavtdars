@@ -48,33 +48,3 @@
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
-
-@media (max-width: 1024px) {
-    .arction__list {
-        flex-direction: column-reverse;
-        text-align: center;
-        gap: 30px;
-    }
-
-    .arction__item {
-        flex: unset;
-    }
-
-    .arction__title {
-        font-size: 28px;
-    }
-}
-
-@media (max-width: 600px) {
-    .arction {
-        padding: 60px 20px;
-    }
-
-    .arction__title {
-        font-size: 24px;
-    }
-
-    .arction__text {
-        font-size: 14px;
-    }
-}
